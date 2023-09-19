@@ -1,0 +1,109 @@
+/* Estilos para o canvas */
+canvas {
+    border: 2px solid #3D20E3;
+    background-color: #ffffff;
+    cursor: pointer;
+
+}
+
+body {
+    background-color: #c5fdfc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para a mensagem de turno do jogador */
+#playerTurn {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6320E3;
+    text-align: center;
+    font-family: "black";
+    /* margin-top: 10px; */
+}
+
+/* Estilos para o jogo da velha */
+.container {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 10px;
+}
+
+/* Estilos para as mensagens de vitória ou empate */
+#gameOverMessage {
+    font-size: 28px;
+    font-weight: bold;
+    color: #3498db;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Estilos para o botão de reiniciar */
+#restartButton {
+    background-color: #f7d4ff;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#restartButton:hover {
+    background-color: #f7d4ff;
+}
+
+@font-face {
+    font-family: "Sea";
+    src: url(Seagram\ tfb.ttf);
+}
+
+@font-face {
+    font-family: "Anc";
+    src: url(Ancient\ Medium.ttf);
+}
+
+h1 {
+    font-family: "Anc";
+    font-size: 45px;
+    color: #6320E3;
+    text-shadow: #2F47FA 3px 0 20px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "black";
+    color: #206AE3;
+    text-align: center;
+
+}
+
+@font-face {
+    font-family: "black";
+    src: url(Blackletter\ Buffoonery.otf);
+}
+
+#foto {
+    margin-right: 1200px;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    z-index: 3;
+    
+}
+#foto2{
+    position: absolute;
+    left: 70px;
+    top: 580px;
+    width: 400px;
+    height: 300px;
+    filter: brightness(50%)
+
+}
